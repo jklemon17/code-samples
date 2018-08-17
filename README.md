@@ -1,1 +1,3 @@
-# code-samples
+This repository holds examples of production code that I have written.
+
+The 'Flag-conversations' file contains the Ruby on Rails code written for a tutoring platform to help identify and stop tutors who attempt to work with students outside the platform. It flags a conversation when a message is sent containing certain blacklist criteria (phone numbers, email addresses, keywords). This flag is visible to admins, who can view all conversations. This feature included the ability for admins to filter the conversations to view only those which are flagged with an alert, as well as sort them by oldest or newest activity.
